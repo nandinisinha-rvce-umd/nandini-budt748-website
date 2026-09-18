@@ -15,9 +15,7 @@ A three page responsive website designed in **Figma** and rebuilt with
 ## Live Site
 
 <!-- Paste your GitHub Pages URL here once it is deployed -->
-Home : https://incomparable-croissant-d2e94f.netlify.app/
-About: https://incomparable-croissant-d2e94f.netlify.app/about
-Contact US: https://incomparable-croissant-d2e94f.netlify.app/about
+https://incomparable-croissant-d2e94f.netlify.app/
 ---
 
 ## Pages
