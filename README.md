@@ -15,7 +15,7 @@ A three page responsive website designed in **Figma** and rebuilt with
 ## Live Site
 
 <!-- Paste your GitHub Pages URL here once it is deployed -->
-[https://YOUR-USERNAME.github.io/budt748-website/](https://github.com/nandinisinha-rvce-umd/nandini-budt748-websit)
+https://github.com/nandinisinha-rvce-umd/nandini-budt748-website
 
 ---
 
