@@ -15,8 +15,7 @@ A three page responsive website designed in **Figma** and rebuilt with
 ## Live Site
 
 <!-- Paste your GitHub Pages URL here once it is deployed -->
-https://github.com/nandinisinha-rvce-umd/nandini-budt748-website
-
+https://incomparable-croissant-d2e94f.netlify.app/
 ---
 
 ## Pages
