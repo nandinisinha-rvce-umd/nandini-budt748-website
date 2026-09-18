@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About | Nandini Sinha | BUDT748 Fall 2026</title>
+  <meta name="description" content="About BUDT748 Information Systems - course details, professor, and teaching assistants.">
+
+  <!-- Bootstrap 5.3 CSS via CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Montserrat font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- My own stylesheet -->
+  <link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- ============ BOOTSTRAP NAVIGATION BAR ============ -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+
+      <a class="navbar-brand" href="index.html">Nandini Sinha</a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarNav" aria-controls="navbarNav"
+              aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </nav>
+
+  <!-- ============ HERO SECTION ============ -->
+  <header class="hero">
+
+    <!-- the two soft background circles from my Figma design -->
+    <span class="deco deco-mint" aria-hidden="true"></span>
+    <span class="deco deco-blush" aria-hidden="true"></span>
+
+    <div class="container">
+
+      <span class="pill" aria-hidden="true"></span>
+
+      <h1>BUDT748 &mdash; Information Systems</h1>
+
+      <p class="hero-subtitle">
+        The capstone course for Information Systems majors
+      </p>
+
+      <p class="hero-tagline">
+        Exploring information systems, technology, and creative digital experiences.
+      </p>
+
+      <!-- course details, stacked and centered like my Figma frame -->
+      <p class="hero-detail">Professor: Paul T. Shapiro</p>
+      <p class="hero-detail">Semester: Fall 2026</p>
+      <p class="hero-detail-sm mb-5">
+        Teaching Assistants: Bharath Sreekumar, Caifu Lin, Sumanth Devara
+      </p>
+
+      <!-- white card with my own details -->
+      <div class="profile-card">
+        <h3>Nandini Sinha</h3>
+        <hr class="profile-rule">
+        <p class="field-value">UID: 122157217</p>
+        <p class="field-value">
+          Email: <a href="mailto:nsinha11@umd.edu">nsinha11@umd.edu</a>
+        </p>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- ============ ABOUT THE COURSE (Bootstrap grid) ============ -->
+  <section class="section">
+    <div class="container">
+      <div class="row g-5 align-items-start">
+
+        <!-- col-lg-7 / col-lg-5 = uneven two column split on large screens -->
+        <div class="col-lg-7">
+          <h2 class="section-title">About the Course</h2>
+          <hr class="accent-rule mx-0">
+          <p>
+            BUDT748 teaches the technologies that run in the browser. Students
+            learn how a design moves from an idea, into a wireframe or mockup,
+            and finally into working code that anyone can open on the web.
+          </p>
+          <p>
+            The course walks through designing an interface in Figma, converting
+            that design into structured HTML, styling it with CSS, making it
+            responsive with the Bootstrap framework, and publishing the finished
+            result to a live host such as GitHub Pages.
+          </p>
+          <p class="mb-0">
+            This website is my submission for that project. Every page was first
+            laid out in Figma on a 1440 &times; 1024 desktop frame using a
+            12 column grid, then rebuilt in HTML and CSS with Bootstrap handling
+            the responsive behavior.
+          </p>
+        </div>
+
+        <!-- Four small cards: 2 per row on tablets, 2 per row on desktop -->
+        <div class="col-lg-5">
+          <div class="row g-3">
+
+            <div class="col-sm-6">
+              <div class="cat-card cat-amber">
+                <h3>Figma</h3>
+                <p>Three page frames on a shared 12 column grid</p>
+              </div>
+            </div>
+
+            <div class="col-sm-6">
+              <div class="cat-card cat-teal">
+                <h3>HTML5</h3>
+                <p>Semantic structure for every section</p>
+              </div>
+            </div>
+
+            <div class="col-sm-6">
+              <div class="cat-card cat-coral">
+                <h3>CSS3</h3>
+                <p>Color tokens, flexbox, media queries</p>
+              </div>
+            </div>
+
+            <div class="col-sm-6">
+              <div class="cat-card cat-amber">
+                <h3>Bootstrap 5</h3>
+                <p>Navbar, grid, buttons, form controls</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+      <div class="text-center mt-5">
+        <a href="contact.html" class="btn btn-teal">Get In Touch</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2026 Nandini Sinha &middot; BUDT748 Fall 2026 &middot; University of Maryland</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JavaScript bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
